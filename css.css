@@ -1,0 +1,46 @@
+/*paletton.com- this website is use to pick up the colour*/
+*{
+	text-align:left;/*this selecter is used to select all
+	 the element */
+}
+body{
+	background-image: url(background.jpg);
+	background-size: cover;/*this use to fit the bg image */
+}
+img{
+	float: right;
+}
+footer{
+	clear: both;/*this property is used to aling the
+	footer with the image.*/
+}
+p{
+	color: green;
+	line-height: 50px;
+	text-align: left;
+	border: 5px solid rgba(255,176,170,0.5);
+	cursor: pointer;
+	font-size: 15px;
+}
+h1{
+	color: #AA4139;
+	text-align: center;
+	/*border: 5px solid rgba(255,176,170,0.5);
+	cursor: pointer;*/
+}
+li{
+	list-style: none;
+
+}
+.website{
+	border: 5px dashed green;
+}
+.active{
+	color: white;
+}
+#div1{
+	background-color: rgba(0,0,255,0.3);
+}
+#div2{
+	background-color: rgba(177, 89, 131,0.3)
+}

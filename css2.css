@@ -1,0 +1,36 @@
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+this website is use to know more about flexbox*/
+body{
+	margin: 0px;
+	background-color: gray;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+h1{
+	color: red;
+	font-family: fantasy;
+	font-size: 3em;
+	background-color: darkgray;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink; 
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px red;
+	margin-top: 10px
+
+
+}
+img{
+	width: 400px;
+	height: 250px;
+	margin: 10px;
+	transition: all .5s;/*highlight the image in 1 sec*/
+
+}
+img:hover{
+	transform: scale(1.1);
+}
